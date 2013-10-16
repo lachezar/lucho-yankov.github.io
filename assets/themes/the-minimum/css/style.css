@@ -644,6 +644,10 @@ pre {
 }
 /* MAIN
 --------------------------------------------------------------------------------- */
+.unit-article {
+  /* ul, ol, dl { padding-left: 0px; } */
+
+}
 .unit-article article > header {
   background: none;
   padding: 0;
@@ -718,11 +722,6 @@ pre {
   margin-left: 0;
   margin-right: 0;
 }
-.unit-article ul,
-.unit-article ol,
-.unit-article dl {
-  padding-left: 0;
-}
 .unit-article ul {
   list-style: square;
 }
@@ -794,7 +793,7 @@ pre {
   margin-bottom: 0;
 }
 .unit-article .list-linear .list-head {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 .unit-article .list-category a,
 .unit-article .list-tag a {
@@ -1093,6 +1092,10 @@ pre {
   }
   .the-header .unit-inner .nav-global {
     margin-top: 10px;
+  }
+  pre,
+  code {
+    font-size: 0.8em;
   }
 }
 /*

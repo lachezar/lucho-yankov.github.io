@@ -11,6 +11,6 @@ Hi, my name is Lucho and I am a web developer.
 
 In this blog I will try to share every tech aspect of the modern Web that excites me. 
 
-You could find more about me on [twitter](http://twitter.com/{{ site.author.twitter }}), check out the open source projects I am involved in on my [GitHub account](https://github.com/{{ site.author.github }}) or contact me on {{ site.author.email }}.
+You could find more about me on [Twitter](http://twitter.com/{{ site.author.twitter }}), check out the open source projects I am involved in on my [GitHub account](https://github.com/{{ site.author.github }}) or contact me on {{ site.author.email }}.
 
 That's it, enjoy ◔ᴗ◔
