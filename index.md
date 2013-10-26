@@ -18,7 +18,7 @@ description: ""
         {{ post.content | strip_html | truncatewords:50 }}
     {% endif %}
     <br/>
-    <a href="{{ post.url }}">Read more...</a>
+    <a href="{{ post.url }}">Read more</a>
   </p>
 </article>
 {% endfor %}
