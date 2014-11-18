@@ -21,7 +21,9 @@ At first I read all datasheets, documentation and even source code, then I start
 
 I created a dummy project with the "hello world" of the embedded systems - the blinky example (i.e. turning on/off built-in LED on the board) and tried to compile and link it within the IDE. It took me some time and pulling hair, but the procedure is simple - look what flags/options the Makefile uses and translate this in the IDE's project configuration. The pulling of hair was due to the horrible/unclear error messages gcc outputs and after few hours on the Internet it boiled down to [difference in `-std=c99` and `-std=gnu99`](http://stackoverflow.com/questions/5313536/whats-the-difference-between-gnu99-and-c99-clang) and the fact that `asm` keyword was used in one of the dependencies. 
 
-Next I tried to debug the sample code, which also took me some time until I unveil how the gdb server interacts with JLink and all the settings and boilerplate. MingW has a port on gdb, so I installed it from there and added it in the PATH and everything worked for my surprise.
+Next I tried to debug the sample code, which also took me some time until I unveil how the gdb server interacts with JLink and all the settings and boilerplate. MingW has a port on gdb, so I installed it from there and added it to the PATH environment variable and everything worked for my surprise.
+
+![bare minimum]({{ site.url }}/assets/images/bare_min.jpg)
 
 ##Bare minimum
 
